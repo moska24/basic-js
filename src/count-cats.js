@@ -14,6 +14,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  * ]) => 3`
  *
  */
+
 function countCats(...matrix) {
   const mas = [];
   while(matrix.length) {
@@ -26,7 +27,7 @@ function countCats(...matrix) {
   }
   let p = 0;
   mas.filter(i => {
-      if (i == '^^'){
+    if (i == '^^'){
           p++;
       }
   })
